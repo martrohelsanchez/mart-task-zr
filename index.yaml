@@ -1,0 +1,2291 @@
+indexes:
+  - kind: User
+    properties:
+      - name: isDeleted
+      - name: keywords
+
+  - kind: Give
+    properties:
+      - name: isDeleted
+      - name: legacyId
+
+  - kind: Give
+    properties:
+      - name: isDeleted
+      - name: dateCreated
+        direction: desc
+
+  - kind: Give
+    properties:
+      - name: donorLegacyId
+      - name: dateCreated
+        direction: desc
+
+  - kind: Give
+    properties:
+      - name: donorLegacyId
+      - name: giveDate
+        direction: desc
+
+  - kind: Give
+    properties:
+      - name: donorLegacyId
+      - name: giveDate
+
+  - kind: Give
+    properties:
+      - name: taxDeductible
+      - name: giveDate
+        direction: desc
+
+  - kind: Give
+    properties:
+      - name: donorLegacyId
+      - name: isDeleted
+      - name: giveDate
+      - name: dateCreated
+        direction: desc
+
+  - kind: Give
+    properties:
+      - name: taxDeductible
+      - name: giveDate
+      - name: dateCreated
+        direction: desc
+
+  - kind: Give
+    properties:
+      - name: donorId
+      - name: isDeleted
+      - name: giveDate
+      - name: dateCreated
+        direction: desc
+
+  - kind: Image
+    properties:
+      - name: isDeleted
+      - name: isPrimaryLogo
+      - name: ownerLegacyId
+      - name: file
+
+  - kind: Image
+    properties:
+      - name: isDeleted
+      - name: isPrimaryLogo
+      - name: ownerLegacyId
+      - name: file
+      - name: imageLegacyId
+
+  - kind: Image
+    properties:
+      - name: isDeleted
+      - name: isPrimaryLogo
+      - name: ownerLegacyId
+      - name: file
+      - name: legacyId
+
+  - kind: Recipient
+    properties:
+      - name: isDeleted
+      - name: legacyId
+      - name: name
+
+  - kind: Give
+    properties:
+      - name: donorLegacyId
+      - name: isDeleted
+      - name: recipientLegacyId
+
+  - kind: PageRecipient
+    properties:
+      - name: isDeleted
+      - name: pageLegacyId
+      - name: id
+
+  - kind: Image
+    properties:
+      - name: isDeleted
+      - name: isPrimaryLogo
+      - name: file
+      - name: legacyId
+
+  - kind: Image
+    properties:
+      - name: isDeleted
+      - name: ownerLegacyId
+      - name: ownerType
+      - name: file
+      - name: legacyId
+
+  - kind: Image
+    properties:
+      - name: isDeleted
+      - name: ownerType
+      - name: file
+      - name: legacyId
+
+  - kind: Give
+    properties:
+      - name: donorLegacyId
+      - name: isDeleted
+      - name: dateCreated
+        direction: desc
+      - name: amount
+      - name: detailEntry
+      - name: endDate
+      - name: frequency
+      - name: fromEmail
+      - name: fromName
+      - name: giveDate
+      - name: isFeatured
+      - name: isRecurring
+      - name: platformCover
+      - name: platformLegacyId
+      - name: recipientCover
+      - name: recipientLegacyId
+      - name: splitAmount
+      - name: splitTaxDeductible
+      - name: splitType
+      - name: splitUnit
+      - name: startDate
+      - name: status
+      - name: taxDeductible
+      - name: unit
+
+  - kind: Give
+    properties:
+      - name: donorLegacyId
+      - name: isDeleted
+      - name: dateCreated
+        direction: desc
+      - name: amount
+      - name: frequency
+      - name: giveDate
+      - name: isRecurring
+      - name: platformLegacyId
+      - name: recipientLegacyId
+      - name: splitAmount
+      - name: splitTaxDeductible
+      - name: splitType
+      - name: splitUnit
+      - name: startDate
+      - name: status
+      - name: taxDeductible
+      - name: unit
+
+  - kind: Give
+    properties:
+      - name: donorLegacyId
+      - name: isDeleted
+      - name: giveDate
+      - name: dateCreated
+        direction: desc
+      - name: amount
+      - name: frequency
+      - name: isRecurring
+      - name: platformLegacyId
+      - name: recipientLegacyId
+      - name: splitAmount
+      - name: splitTaxDeductible
+      - name: splitType
+      - name: splitUnit
+      - name: startDate
+      - name: status
+      - name: taxDeductible
+      - name: unit
+
+  - kind: Give
+    properties:
+      - name: donorLegacyId
+      - name: isDeleted
+      - name: giveDate
+      - name: dateCreated
+        direction: desc
+      - name: amount
+      - name: frequency
+      - name: isRecurring
+      - name: platformLegacyId
+      - name: recipientId
+      - name: recipientLegacyId
+      - name: splitAmount
+      - name: splitTaxDeductible
+      - name: splitType
+      - name: splitUnit
+      - name: startDate
+      - name: status
+      - name: taxDeductible
+      - name: unit
+
+  - kind: Give
+    properties:
+      - name: donorLegacyId
+      - name: isDeleted
+      - name: dateCreated
+        direction: desc
+      - name: amount
+      - name: frequency
+      - name: giveDate
+      - name: isRecurring
+      - name: platformLegacyId
+      - name: recipientId
+      - name: recipientLegacyId
+      - name: splitAmount
+      - name: splitTaxDeductible
+      - name: splitType
+      - name: splitUnit
+      - name: startDate
+      - name: status
+      - name: taxDeductible
+      - name: unit
+
+  - kind: Give
+    properties:
+      - name: donorLegacyId
+      - name: isDeleted
+      - name: dateCreated
+        direction: desc
+      - name: amount
+      - name: detailEntry
+      - name: frequency
+      - name: giveDate
+      - name: isRecurring
+      - name: platformLegacyId
+      - name: recipientId
+      - name: recipientLegacyId
+      - name: splitAmount
+      - name: splitTaxDeductible
+      - name: splitType
+      - name: splitUnit
+      - name: startDate
+      - name: status
+      - name: taxDeductible
+      - name: unit
+
+  - kind: Give
+    properties:
+      - name: isDeleted
+      - name: dateCreated
+        direction: desc
+      - name: amount
+      - name: detailEntry
+      - name: frequency
+      - name: giveDate
+      - name: isRecurring
+      - name: platformLegacyId
+      - name: recipientId
+      - name: recipientLegacyId
+      - name: splitAmount
+      - name: splitTaxDeductible
+      - name: splitType
+      - name: splitUnit
+      - name: startDate
+      - name: status
+      - name: taxDeductible
+      - name: unit
+
+  - kind: Give
+    properties:
+      - name: donorLegacyId
+      - name: isDeleted
+      - name: dateCreated
+        direction: desc
+      - name: detailEntry
+
+  - kind: Give
+    properties:
+      - name: isDeleted
+      - name: htmlBody
+
+  - kind: Give
+    properties:
+      - name: donorLegacyId
+      - name: isDeleted
+      - name: dateCreated
+        direction: desc
+      - name: recipientId
+
+  - kind: Give
+    properties:
+      - name: donorLegacyId
+      - name: isDeleted
+      - name: giveDate
+      - name: dateCreated
+        direction: desc
+      - name: amount
+      - name: detailEntry
+      - name: frequency
+      - name: isRecurring
+      - name: platformLegacyId
+      - name: recipientId
+      - name: recipientLegacyId
+      - name: splitAmount
+      - name: splitTaxDeductible
+      - name: splitType
+      - name: splitUnit
+      - name: startDate
+      - name: status
+      - name: taxDeductible
+      - name: unit
+
+  - kind: Give
+    properties:
+      - name: isDeleted
+      - name: giveDate
+
+  - kind: Give
+    properties:
+      - name: donorId
+      - name: isDeleted
+      - name: giveDate
+      - name: dateCreated
+        direction: desc
+      - name: amount
+      - name: detailEntry
+      - name: frequency
+      - name: isRecurring
+      - name: platformLegacyId
+      - name: recipientId
+      - name: recipientLegacyId
+      - name: splitAmount
+      - name: splitTaxDeductible
+      - name: splitType
+      - name: splitUnit
+      - name: startDate
+      - name: status
+      - name: taxDeductible
+      - name: unit
+
+  - kind: Image
+    properties:
+      - name: ownerId
+      - name: file
+      - name: legacyId
+
+  - kind: Image
+    properties:
+      - name: ownerId
+      - name: file
+      - name: legacyId
+
+  - kind: Give
+    properties:
+      - name: donorId
+      - name: dateCreated
+        direction: desc
+      - name: amount
+      - name: detailEntry
+      - name: frequency
+      - name: giveDate
+      - name: isRecurring
+      - name: platformLegacyId
+      - name: recipientId
+      - name: recipientLegacyId
+      - name: splitAmount
+      - name: splitTaxDeductible
+      - name: splitType
+      - name: splitUnit
+      - name: startDate
+      - name: status
+      - name: taxDeductible
+      - name: unit
+
+  - kind: Give
+    properties:
+      - name: donorId
+      - name: giveDate
+
+  - kind: Give
+    properties:
+      - name: isDeleted
+      - name: dateCreated
+        direction: desc
+      - name: amount
+      - name: detailEntry
+      - name: donorId
+      - name: frequency
+      - name: giveDate
+      - name: isRecurring
+      - name: platformLegacyId
+      - name: recipientId
+      - name: recipientLegacyId
+      - name: splitAmount
+      - name: splitTaxDeductible
+      - name: splitType
+      - name: splitUnit
+      - name: startDate
+      - name: status
+      - name: taxDeductible
+      - name: unit
+
+  - kind: Give
+    properties:
+      - name: isDeleted
+      - name: dateCreated
+        direction: desc
+      - name: amount
+      - name: detailEntry
+      - name: donorId
+      - name: frequency
+      - name: giveDate
+      - name: isRecurring
+      - name: platformId
+      - name: platformLegacyId
+      - name: recipientId
+      - name: recipientLegacyId
+      - name: splitAmount
+      - name: splitTaxDeductible
+      - name: splitType
+      - name: splitUnit
+      - name: startDate
+      - name: status
+      - name: taxDeductible
+      - name: unit
+
+  - kind: Give
+    properties:
+      - name: donorId
+      - name: isDeleted
+      - name: giveDate
+      - name: dateCreated
+        direction: desc
+      - name: amount
+      - name: detailEntry
+      - name: frequency
+      - name: isRecurring
+      - name: platformId
+      - name: platformLegacyId
+      - name: recipientId
+      - name: recipientLegacyId
+      - name: splitAmount
+      - name: splitTaxDeductible
+      - name: splitType
+      - name: splitUnit
+      - name: startDate
+      - name: status
+      - name: taxDeductible
+      - name: unit
+
+  - kind: Give
+    properties:
+      - name: donorId
+      - name: isDeleted
+      - name: dateCreated
+        direction: desc
+      - name: amount
+      - name: detailEntry
+      - name: frequency
+      - name: giveDate
+      - name: isRecurring
+      - name: platformId
+      - name: platformLegacyId
+      - name: recipientId
+      - name: recipientLegacyId
+      - name: splitAmount
+      - name: splitTaxDeductible
+      - name: splitType
+      - name: splitUnit
+      - name: startDate
+      - name: status
+      - name: taxDeductible
+      - name: unit
+
+  - kind: Give
+    properties:
+      - name: isDeleted
+      - name: giveDate
+      - name: amount
+      - name: dateCreated
+      - name: detailEntry
+      - name: donorId
+      - name: frequency
+      - name: isRecurring
+      - name: platformId
+      - name: platformLegacyId
+      - name: recipientId
+      - name: recipientLegacyId
+      - name: splitAmount
+      - name: splitTaxDeductible
+      - name: splitType
+      - name: splitUnit
+      - name: startDate
+      - name: status
+      - name: taxDeductible
+      - name: unit
+
+  - kind: Give
+    properties:
+      - name: isDeleted
+      - name: giveDate
+        direction: desc
+      - name: amount
+      - name: dateCreated
+      - name: detailEntry
+      - name: donorId
+      - name: frequency
+      - name: isRecurring
+      - name: platformId
+      - name: platformLegacyId
+      - name: recipientId
+      - name: recipientLegacyId
+      - name: splitAmount
+      - name: splitTaxDeductible
+      - name: splitType
+      - name: splitUnit
+      - name: startDate
+      - name: status
+      - name: taxDeductible
+      - name: unit
+
+  - kind: Give
+    properties:
+      - name: isDeleted
+      - name: taxDeductible
+        direction: desc
+      - name: amount
+      - name: dateCreated
+      - name: detailEntry
+      - name: donorId
+      - name: frequency
+      - name: giveDate
+      - name: isRecurring
+      - name: platformId
+      - name: platformLegacyId
+      - name: recipientId
+      - name: recipientLegacyId
+      - name: splitAmount
+      - name: splitTaxDeductible
+      - name: splitType
+      - name: splitUnit
+      - name: startDate
+      - name: status
+      - name: unit
+
+  - kind: Give
+    properties:
+      - name: isDeleted
+      - name: taxDeductible
+      - name: amount
+      - name: dateCreated
+      - name: detailEntry
+      - name: donorId
+      - name: frequency
+      - name: giveDate
+      - name: isRecurring
+      - name: platformId
+      - name: platformLegacyId
+      - name: recipientId
+      - name: recipientLegacyId
+      - name: splitAmount
+      - name: splitTaxDeductible
+      - name: splitType
+      - name: splitUnit
+      - name: startDate
+      - name: status
+      - name: unit
+
+  - kind: Give
+    properties:
+      - name: isDeleted
+      - name: status
+      - name: amount
+      - name: dateCreated
+      - name: detailEntry
+      - name: donorId
+      - name: frequency
+      - name: giveDate
+      - name: isRecurring
+      - name: platformId
+      - name: platformLegacyId
+      - name: recipientId
+      - name: recipientLegacyId
+      - name: splitAmount
+      - name: splitTaxDeductible
+      - name: splitType
+      - name: splitUnit
+      - name: startDate
+      - name: taxDeductible
+      - name: unit
+
+  - kind: Give
+    properties:
+      - name: isDeleted
+      - name: status
+        direction: desc
+      - name: amount
+      - name: dateCreated
+      - name: detailEntry
+      - name: donorId
+      - name: frequency
+      - name: giveDate
+      - name: isRecurring
+      - name: platformId
+      - name: platformLegacyId
+      - name: recipientId
+      - name: recipientLegacyId
+      - name: splitAmount
+      - name: splitTaxDeductible
+      - name: splitType
+      - name: splitUnit
+      - name: startDate
+      - name: taxDeductible
+      - name: unit
+
+  - kind: Give
+    properties:
+      - name: isDeleted
+      - name: donorName
+      - name: amount
+      - name: dateCreated
+      - name: detailEntry
+      - name: donorId
+      - name: frequency
+      - name: giveDate
+      - name: isRecurring
+      - name: platformId
+      - name: platformLegacyId
+      - name: recipientId
+      - name: recipientLegacyId
+      - name: splitAmount
+      - name: splitTaxDeductible
+      - name: splitType
+      - name: splitUnit
+      - name: startDate
+      - name: status
+      - name: taxDeductible
+      - name: unit
+
+  - kind: Give
+    properties:
+      - name: isDeleted
+      - name: donorName
+        direction: desc
+      - name: amount
+      - name: dateCreated
+      - name: detailEntry
+      - name: donorId
+      - name: frequency
+      - name: giveDate
+      - name: isRecurring
+      - name: platformId
+      - name: platformLegacyId
+      - name: recipientId
+      - name: recipientLegacyId
+      - name: splitAmount
+      - name: splitTaxDeductible
+      - name: splitType
+      - name: splitUnit
+      - name: startDate
+      - name: status
+      - name: taxDeductible
+      - name: unit
+
+  - kind: Give
+    properties:
+      - name: isDeleted
+      - name: recipientName
+      - name: amount
+      - name: dateCreated
+      - name: detailEntry
+      - name: donorId
+      - name: frequency
+      - name: giveDate
+      - name: isRecurring
+      - name: platformId
+      - name: platformLegacyId
+      - name: recipientId
+      - name: recipientLegacyId
+      - name: splitAmount
+      - name: splitTaxDeductible
+      - name: splitType
+      - name: splitUnit
+      - name: startDate
+      - name: status
+      - name: taxDeductible
+      - name: unit
+
+  - kind: Give
+    properties:
+      - name: isDeleted
+      - name: recipientName
+        direction: desc
+      - name: amount
+      - name: dateCreated
+      - name: detailEntry
+      - name: donorId
+      - name: frequency
+      - name: giveDate
+      - name: isRecurring
+      - name: platformId
+      - name: platformLegacyId
+      - name: recipientId
+      - name: recipientLegacyId
+      - name: splitAmount
+      - name: splitTaxDeductible
+      - name: splitType
+      - name: splitUnit
+      - name: startDate
+      - name: status
+      - name: taxDeductible
+      - name: unit
+
+  - kind: Give
+    properties:
+      - name: isDeleted
+      - name: platformName
+      - name: amount
+      - name: dateCreated
+      - name: detailEntry
+      - name: donorId
+      - name: frequency
+      - name: giveDate
+      - name: isRecurring
+      - name: platformId
+      - name: platformLegacyId
+      - name: recipientId
+      - name: recipientLegacyId
+      - name: splitAmount
+      - name: splitTaxDeductible
+      - name: splitType
+      - name: splitUnit
+      - name: startDate
+      - name: status
+      - name: taxDeductible
+      - name: unit
+
+  - kind: Give
+    properties:
+      - name: isDeleted
+      - name: platformName
+        direction: desc
+      - name: amount
+      - name: dateCreated
+      - name: detailEntry
+      - name: donorId
+      - name: frequency
+      - name: giveDate
+      - name: isRecurring
+      - name: platformId
+      - name: platformLegacyId
+      - name: recipientId
+      - name: recipientLegacyId
+      - name: splitAmount
+      - name: splitTaxDeductible
+      - name: splitType
+      - name: splitUnit
+      - name: startDate
+      - name: status
+      - name: taxDeductible
+      - name: unit
+
+  - kind: Give
+    properties:
+      - name: isDeleted
+      - name: amount
+      - name: dateCreated
+      - name: detailEntry
+      - name: donorId
+      - name: frequency
+      - name: giveDate
+      - name: isRecurring
+      - name: platformId
+      - name: platformLegacyId
+      - name: recipientId
+      - name: recipientLegacyId
+      - name: splitAmount
+      - name: splitTaxDeductible
+      - name: splitType
+      - name: splitUnit
+      - name: startDate
+      - name: status\
+      - name: taxDeductible
+      - name: unit
+
+  - kind: Give
+    properties:
+      - name: isDeleted
+      - name: amount
+      - name: dateCreated
+      - name: detailEntry
+      - name: donorId
+      - name: frequency
+      - name: giveDate
+      - name: isRecurring
+      - name: platformId
+      - name: platformLegacyId
+      - name: recipientId
+      - name: recipientLegacyId
+      - name: splitAmount
+      - name: splitTaxDeductible
+      - name: splitType
+      - name: splitUnit
+      - name: startDate
+      - name: status
+      - name: taxDeductible
+      - name: unit
+
+  - kind: Give
+    properties:
+      - name: isDeleted
+      - name: amount
+        direction: desc
+      - name: dateCreated
+      - name: detailEntry
+      - name: donorId
+      - name: frequency
+      - name: giveDate
+      - name: isRecurring
+      - name: platformId
+      - name: platformLegacyId
+      - name: recipientId
+      - name: recipientLegacyId
+      - name: splitAmount
+      - name: splitTaxDeductible
+      - name: splitType
+      - name: splitUnit
+      - name: startDate
+      - name: status
+      - name: taxDeductible
+      - name: unit
+
+  - kind: Give
+    properties:
+      - name: isDeleted
+      - name: taxDeductible
+      - name: dateCreated
+        direction: desc
+      - name: amount
+      - name: detailEntry
+      - name: donorId
+      - name: frequency
+      - name: giveDate
+      - name: isRecurring
+      - name: platformId
+      - name: platformLegacyId
+      - name: recipientId
+      - name: recipientLegacyId
+      - name: splitAmount
+      - name: splitTaxDeductible
+      - name: splitType
+      - name: splitUnit
+      - name: startDate
+      - name: status
+      - name: unit
+
+  - kind: Give
+    properties:
+      - name: isDeleted
+      - name: status
+      - name: taxDeductible
+      - name: dateCreated
+        direction: desc
+      - name: amount
+      - name: detailEntry
+      - name: donorId
+      - name: frequency
+      - name: giveDate
+      - name: isRecurring
+      - name: platformId
+      - name: platformLegacyId
+      - name: recipientId
+      - name: recipientLegacyId
+      - name: splitAmount
+      - name: splitTaxDeductible
+      - name: splitType
+      - name: splitUnit
+      - name: startDate
+      - name: unit
+
+  - kind: Give
+    properties:
+      - name: isDeleted
+      - name: dateCreated
+        direction: desc
+      - name: amount
+      - name: detailEntry
+      - name: donorId
+      - name: frequency
+      - name: giveDate
+      - name: isRecurring
+      - name: platformId
+      - name: platformLegacyId
+      - name: recipientId
+      - name: recipientLegacyId
+      - name: splitAmount
+      - name: splitTaxDeductible
+      - name: splitType
+      - name: splitUnit
+      - name: startDate
+      - name: taxDeductible
+      - name: unit
+
+  - kind: Give
+    properties:
+      - name: isDeleted
+      - name: status
+      - name: taxDeductible
+      - name: giveDate
+      - name: amount
+      - name: dateCreated
+      - name: detailEntry
+      - name: donorId
+      - name: frequency
+      - name: isRecurring
+      - name: platformId
+      - name: platformLegacyId
+      - name: recipientId
+      - name: recipientLegacyId
+      - name: splitAmount
+      - name: splitTaxDeductible
+      - name: splitType
+      - name: splitUnit
+      - name: startDate
+      - name: unit
+
+  - kind: Give
+    properties:
+      - name: isDeleted
+      - name: giveDate
+      - name: amount
+      - name: dateCreated
+      - name: detailEntry
+      - name: donorId
+      - name: frequency
+      - name: isRecurring
+      - name: platformId
+      - name: platformLegacyId
+      - name: recipientId
+      - name: recipientLegacyId
+      - name: splitAmount
+      - name: splitTaxDeductible
+      - name: splitType
+      - name: splitUnit
+      - name: startDate
+      - name: taxDeductible
+      - name: unit
+
+  - kind: Give
+    properties:
+      - name: isDeleted
+      - name: taxDeductible
+      - name: giveDate
+      - name: amount
+      - name: dateCreated
+      - name: detailEntry
+      - name: donorId
+      - name: frequency
+      - name: isRecurring
+      - name: platformId
+      - name: platformLegacyId
+      - name: recipientId
+      - name: recipientLegacyId
+      - name: splitAmount
+      - name: splitTaxDeductible
+      - name: splitType
+      - name: splitUnit
+      - name: startDate
+      - name: status
+      - name: unit
+
+  - kind: Give
+    properties:
+      - name: isDeleted
+      - name: dateCreated
+      - name: amount
+      - name: detailEntry
+      - name: donorId
+      - name: frequency
+      - name: giveDate
+      - name: isRecurring
+      - name: platformId
+      - name: platformLegacyId
+      - name: recipientId
+      - name: recipientLegacyId
+      - name: splitAmount
+      - name: splitTaxDeductible
+      - name: splitType
+      - name: splitUnit
+      - name: startDate
+      - name: status
+      - name: taxDeductible
+      - name: unit
+
+  - kind: Give
+    properties:
+      - name: isDeleted
+      - name: taxDeductible
+      - name: donorName
+      - name: amount
+      - name: dateCreated
+      - name: detailEntry
+      - name: donorId
+      - name: frequency
+      - name: giveDate
+      - name: isRecurring
+      - name: platformId
+      - name: platformLegacyId
+      - name: recipientId
+      - name: recipientLegacyId
+      - name: splitAmount
+      - name: splitTaxDeductible
+      - name: splitType
+      - name: splitUnit
+      - name: startDate
+      - name: status
+      - name: unit
+
+  - kind: Give
+    properties:
+      - name: isDeleted
+      - name: status
+      - name: taxDeductible
+      - name: donorName
+      - name: amount
+      - name: dateCreated
+      - name: detailEntry
+      - name: donorId
+      - name: frequency
+      - name: giveDate
+      - name: isRecurring
+      - name: platformId
+      - name: platformLegacyId
+      - name: recipientId
+      - name: recipientLegacyId
+      - name: splitAmount
+      - name: splitTaxDeductible
+      - name: splitType
+      - name: splitUnit
+      - name: startDate
+      - name: unit
+
+  - kind: Give
+    properties:
+      - name: isDeleted
+      - name: status
+      - name: taxDeductible
+      - name: donorName
+        direction: desc
+      - name: amount
+      - name: dateCreated
+      - name: detailEntry
+      - name: donorId
+      - name: frequency
+      - name: giveDate
+      - name: isRecurring
+      - name: platformId
+      - name: platformLegacyId
+      - name: recipientId
+      - name: recipientLegacyId
+      - name: splitAmount
+      - name: splitTaxDeductible
+      - name: splitType
+      - name: splitUnit
+      - name: startDate
+      - name: unit
+
+  - kind: Give
+    properties:
+      - name: isDeleted
+      - name: status
+      - name: taxDeductible
+      - name: dateCreated
+      - name: amount
+      - name: detailEntry
+      - name: donorId
+      - name: frequency
+      - name: giveDate
+      - name: isRecurring
+      - name: platformId
+      - name: platformLegacyId
+      - name: recipientId
+      - name: recipientLegacyId
+      - name: splitAmount
+      - name: splitTaxDeductible
+      - name: splitType
+      - name: splitUnit
+      - name: startDate
+      - name: unit
+
+  - kind: Give
+    properties:
+      - name: isDeleted
+      - name: status
+      - name: taxDeductible
+      - name: recipientName
+      - name: amount
+      - name: dateCreated
+      - name: detailEntry
+      - name: donorId
+      - name: frequency
+      - name: giveDate
+      - name: isRecurring
+      - name: platformId
+      - name: platformLegacyId
+      - name: recipientId
+      - name: recipientLegacyId
+      - name: splitAmount
+      - name: splitTaxDeductible
+      - name: splitType
+      - name: splitUnit
+      - name: startDate
+      - name: unit
+
+  - kind: Give
+    properties:
+      - name: isDeleted
+      - name: status
+      - name: taxDeductible
+      - name: recipientName
+        direction: desc
+      - name: amount
+      - name: dateCreated
+      - name: detailEntry
+      - name: donorId
+      - name: frequency
+      - name: giveDate
+      - name: isRecurring
+      - name: platformId
+      - name: platformLegacyId
+      - name: recipientId
+      - name: recipientLegacyId
+      - name: splitAmount
+      - name: splitTaxDeductible
+      - name: splitType
+      - name: splitUnit
+      - name: startDate
+      - name: unit
+
+  - kind: Give
+    properties:
+      - name: isDeleted
+      - name: status
+      - name: taxDeductible
+      - name: platformName
+      - name: amount
+      - name: dateCreated
+      - name: detailEntry
+      - name: donorId
+      - name: frequency
+      - name: giveDate
+      - name: isRecurring
+      - name: platformId
+      - name: platformLegacyId
+      - name: recipientId
+      - name: recipientLegacyId
+      - name: splitAmount
+      - name: splitTaxDeductible
+      - name: splitType
+      - name: splitUnit
+      - name: startDate
+      - name: unit
+
+  - kind: Give
+    properties:
+      - name: isDeleted
+      - name: status
+      - name: taxDeductible
+      - name: platformName
+        direction: desc
+      - name: amount
+      - name: dateCreated
+      - name: detailEntry
+      - name: donorId
+      - name: frequency
+      - name: giveDate
+      - name: isRecurring
+      - name: platformId
+      - name: platformLegacyId
+      - name: recipientId
+      - name: recipientLegacyId
+      - name: splitAmount
+      - name: splitTaxDeductible
+      - name: splitType
+      - name: splitUnit
+      - name: startDate
+      - name: unit
+
+  - kind: Give
+    properties:
+      - name: isDeleted
+      - name: status
+      - name: taxDeductible
+      - name: amount
+      - name: dateCreated
+      - name: detailEntry
+      - name: donorId
+      - name: frequency
+      - name: giveDate
+      - name: isRecurring
+      - name: platformId
+      - name: platformLegacyId
+      - name: recipientId
+      - name: recipientLegacyId
+      - name: splitAmount
+      - name: splitTaxDeductible
+      - name: splitType
+      - name: splitUnit
+      - name: startDate
+      - name: unit
+
+  - kind: Give
+    properties:
+      - name: isDeleted
+      - name: status
+      - name: taxDeductible
+      - name: amount
+        direction: desc
+      - name: dateCreated
+      - name: detailEntry
+      - name: donorId
+      - name: frequency
+      - name: giveDate
+      - name: isRecurring
+      - name: platformId
+      - name: platformLegacyId
+      - name: recipientId
+      - name: recipientLegacyId
+      - name: splitAmount
+      - name: splitTaxDeductible
+      - name: splitType
+      - name: splitUnit
+      - name: startDate
+      - name: unit
+
+  - kind: Give
+    properties:
+      - name: status
+      - name: dateCreated
+        direction: desc
+      - name: amount
+      - name: detailEntry
+      - name: donorId
+      - name: frequency
+      - name: giveDate
+      - name: isRecurring
+      - name: platformId
+      - name: platformLegacyId
+      - name: recipientId
+      - name: recipientLegacyId
+      - name: splitAmount
+      - name: splitTaxDeductible
+      - name: splitType
+      - name: splitUnit
+      - name: startDate
+      - name: taxDeductible
+      - name: unit
+
+  - kind: Give
+    properties:
+      - name: isDeleted
+      - name: status
+      - name: dateCreated
+      - name: amount
+      - name: detailEntry
+      - name: donorId
+      - name: frequency
+      - name: giveDate
+      - name: isRecurring
+      - name: platformId
+      - name: platformLegacyId
+      - name: recipientId
+      - name: recipientLegacyId
+      - name: splitAmount
+      - name: splitTaxDeductible
+      - name: splitType
+      - name: splitUnit
+      - name: startDate
+      - name: taxDeductible
+      - name: unit
+
+  - kind: Give
+    properties:
+      - name: searchTags
+      - name: dateCreated
+        direction: desc
+      - name: amount
+      - name: detailEntry
+      - name: donorId
+      - name: frequency
+      - name: giveDate
+      - name: isRecurring
+      - name: platformId
+      - name: platformLegacyId
+      - name: recipientId
+      - name: recipientLegacyId
+      - name: splitAmount
+      - name: splitTaxDeductible
+      - name: splitType
+      - name: splitUnit
+      - name: startDate
+      - name: status
+      - name: taxDeductible
+      - name: unit
+
+  - kind: Give
+    properties:
+      - name: searchTags
+      - name: dateCreated
+      - name: amount
+      - name: detailEntry
+      - name: donorId
+      - name: frequency
+      - name: giveDate
+      - name: isRecurring
+      - name: platformId
+      - name: platformLegacyId
+      - name: recipientId
+      - name: recipientLegacyId
+      - name: splitAmount
+      - name: splitTaxDeductible
+      - name: splitType
+      - name: splitUnit
+      - name: startDate
+      - name: unit
+
+  - kind: Give
+    properties:
+      - name: isDeleted
+      - name: taxDeductible
+      - name: dateCreated
+      - name: amount
+      - name: detailEntry
+      - name: donorId
+      - name: frequency
+      - name: giveDate
+      - name: isRecurring
+      - name: platformId
+      - name: platformLegacyId
+      - name: recipientId
+      - name: recipientLegacyId
+      - name: splitAmount
+      - name: splitTaxDeductible
+      - name: splitType
+      - name: splitUnit
+      - name: startDate
+      - name: status
+      - name: unit
+
+  - kind: Give
+    properties:
+      - name: searchTags
+      - name: dateCreated
+      - name: amount
+      - name: detailEntry
+      - name: donorId
+      - name: frequency
+      - name: giveDate
+      - name: isRecurring
+      - name: platformId
+      - name: platformLegacyId
+      - name: recipientId
+      - name: recipientLegacyId
+      - name: splitAmount
+      - name: splitTaxDeductible
+      - name: splitType
+      - name: splitUnit
+      - name: startDate
+      - name: taxDeductible
+      - name: unit
+
+  - kind: Give
+    properties:
+      - name: searchTags
+      - name: dateCreated
+      - name: amount
+      - name: detailEntry
+      - name: donorId
+      - name: frequency
+      - name: giveDate
+      - name: isRecurring
+      - name: platformId
+      - name: platformLegacyId
+      - name: recipientId
+      - name: recipientLegacyId
+      - name: splitAmount
+      - name: splitTaxDeductible
+      - name: splitType
+      - name: splitUnit
+      - name: startDate
+      - name: status
+      - name: taxDeductible
+      - name: unit
+
+  - kind: Give
+    properties:
+      - name: searchTags
+      - name: dateCreated
+        direction: desc
+      - name: amount
+      - name: detailEntry
+      - name: donorId
+      - name: frequency
+      - name: giveDate
+      - name: isRecurring
+      - name: platformId
+      - name: platformLegacyId
+      - name: recipientId
+      - name: recipientLegacyId
+      - name: splitAmount
+      - name: splitTaxDeductible
+      - name: splitType
+      - name: splitUnit
+      - name: startDate
+      - name: status
+      - name: unit
+
+  - kind: Give
+    properties:
+      - name: searchTags
+      - name: dateCreated
+        direction: desc
+      - name: amount
+      - name: detailEntry
+      - name: donorId
+      - name: frequency
+      - name: giveDate
+      - name: isRecurring
+      - name: platformId
+      - name: platformLegacyId
+      - name: recipientId
+      - name: recipientLegacyId
+      - name: splitAmount
+      - name: splitTaxDeductible
+      - name: splitType
+      - name: splitUnit
+      - name: startDate
+      - name: unit
+
+  - kind: Recipient
+    properties:
+      - name: isDeleted
+      - name: name
+
+  - kind: Recipient
+    properties:
+      - name: isDeleted
+      - name: dateCreated
+        direction: desc
+
+  - kind: Recipient
+    properties:
+      - name: isDeleted
+      - name: name
+        direction: desc
+
+  - kind: Recipient
+    properties:
+      - name: isDeleted
+      - name: recipientTypes
+
+  - kind: Recipient
+    properties:
+      - name: isDeleted
+      - name: recipientTypes
+        direction: desc
+
+  - kind: Recipient
+    properties:
+      - name: isDeleted
+      - name: dateCreated
+
+  - kind: Recipient
+    properties:
+      - name: isDeleted
+      - name: dateCreated
+        direction: desc
+
+  - kind: Recipient
+    properties:
+      - name: searchTags
+      - name: dateCreated
+        direction: desc
+
+  - kind: Recipient
+    properties:
+      - name: recipientTypes
+      - name: dateCreated
+        direction: desc
+
+  - kind: Recipient
+    properties:
+      - name: isDeleted
+      - name: giveCount
+
+  - kind: Recipient
+    properties:
+      - name: isDeleted
+      - name: giveCount
+        direction: desc
+
+  - kind: Recipient
+    properties:
+      - name: isDeleted
+      - name: logoImageId
+
+  - kind: Recipient
+    properties:
+      - name: isDeleted
+      - name: logoImageId
+        direction: desc
+
+  - kind: Platform
+    properties:
+      - name: isDeleted
+      - name: name
+
+  - kind: Platform
+    properties:
+      - name: isDeleted
+      - name: name
+        direction: desc
+
+  - kind: Platform
+    properties:
+      - name: isDeleted
+      - name: dateCreated
+        direction: desc
+
+  - kind: Platform
+    properties:
+      - name: isDeleted
+      - name: searchTags
+      - name: giveCount
+        direction: desc
+
+  - kind: Platform
+    properties:
+      - name: isDeleted
+      - name: giveCount
+
+  - kind: Platform
+    properties:
+      - name: isDeleted
+      - name: giveCount
+        direction: desc
+
+  - kind: Platform
+    properties:
+      - name: searchTags
+      - name: dateCreated
+        direction: desc
+
+  - kind: Donor
+    properties:
+      - name: isDeleted
+      - name: dateCreated
+        direction: desc
+
+  - kind: Donor
+    properties:
+      - name: isDeleted
+      - name: dateCreated
+        direction: desc
+
+  - kind: Donor
+    properties:
+      - name: isDeleted
+      - name: name
+        direction: desc
+
+  - kind: Donor
+    properties:
+      - name: isDeleted
+      - name: name
+
+  - kind: Donor
+    properties:
+      - name: isDeleted
+      - name: dateCreated
+
+  - kind: Donor
+    properties:
+      - name: isDeleted
+      - name: email
+
+  - kind: Donor
+    properties:
+      - name: isDeleted
+      - name: email
+        direction: desc
+
+  - kind: Donor
+    properties:
+      - name: searchTags
+      - name: dateCreated
+        direction: desc
+
+  - kind: Donor
+    properties:
+      - name: isDeleted
+      - name: giveCount
+
+  - kind: Donor
+    properties:
+      - name: isDeleted
+      - name: giveCount
+        direction: desc
+
+  - kind: Donor
+    properties:
+      - name: isDeleted
+      - name: lastGiveDate
+
+  - kind: Donor
+    properties:
+      - name: isDeleted
+      - name: lastGiveDate
+        direction: desc
+
+  - kind: Donor
+    properties:
+      - name: isDeleted
+      - name: currentYearGoalAmount
+
+  - kind: Donor
+    properties:
+      - name: isDeleted
+      - name: currentYearGoalAmount
+        direction: desc
+
+  - kind: Give
+    properties:
+      - name: donorId
+      - name: isDeleted
+      - name: giveDate
+      - name: amount
+      - name: dateCreated
+      - name: detailEntry
+      - name: donorName
+      - name: frequency
+      - name: isRecurring
+      - name: platformId
+      - name: platformLegacyId
+      - name: platformName
+      - name: recipientId
+      - name: recipientLegacyId
+      - name: recipientName
+      - name: splitAmount
+      - name: splitTaxDeductible
+      - name: splitType
+      - name: splitUnit
+      - name: startDate
+      - name: status
+      - name: taxDeductible
+      - name: unit
+
+  - kind: Give
+    properties:
+      - name: donorId
+      - name: isDeleted
+      - name: dateCreated
+        direction: desc
+      - name: amount
+      - name: detailEntry
+      - name: donorId
+      - name: donorName
+      - name: frequency
+      - name: giveDate
+      - name: isRecurring
+      - name: platformId
+      - name: platformLegacyId
+      - name: platformName
+      - name: recipientId
+      - name: recipientLegacyId
+      - name: recipientName
+      - name: splitAmount
+      - name: splitTaxDeductible
+      - name: splitType
+      - name: splitUnit
+      - name: startDate
+      - name: status
+      - name: taxDeductible
+      - name: unit
+
+  - kind: Give
+    properties:
+      - name: searchTags
+      - name: dateCreated
+        direction: desc
+      - name: amount
+      - name: detailEntry
+      - name: donorId
+      - name: donorName
+      - name: frequency
+      - name: giveDate
+      - name: isRecurring
+      - name: platformId
+      - name: platformLegacyId
+      - name: platformName
+      - name: recipientId
+      - name: recipientLegacyId
+      - name: recipientName
+      - name: splitAmount
+      - name: splitTaxDeductible
+      - name: splitType
+      - name: splitUnit
+      - name: startDate
+      - name: status
+      - name: taxDeductible
+      - name: unit
+
+  - kind: Give
+    properties:
+      - name: isDeleted
+      - name: status
+      - name: dateCreated
+        direction: desc
+      - name: amount
+      - name: detailEntry
+      - name: donorId
+      - name: donorName
+      - name: frequency
+      - name: giveDate
+      - name: isRecurring
+      - name: platformId
+      - name: platformLegacyId
+      - name: platformName
+      - name: recipientId
+      - name: recipientLegacyId
+      - name: recipientName
+      - name: splitAmount
+      - name: splitTaxDeductible
+      - name: splitType
+      - name: splitUnit
+      - name: startDate
+      - name: taxDeductible
+      - name: unit
+
+  - kind: Give
+    properties:
+      - name: isDeleted
+      - name: taxDeductible
+      - name: dateCreated
+        direction: desc
+      - name: amount
+      - name: detailEntry
+      - name: donorId
+      - name: donorName
+      - name: frequency
+      - name: giveDate
+      - name: isRecurring
+      - name: platformId
+      - name: platformLegacyId
+      - name: platformName
+      - name: recipientId
+      - name: recipientLegacyId
+      - name: recipientName
+      - name: splitAmount
+      - name: splitTaxDeductible
+      - name: splitType
+      - name: splitUnit
+      - name: startDate
+      - name: status
+      - name: unit
+
+  - kind: Give
+    properties:
+      - name: isDeleted
+      - name: dateCreated
+      - name: amount
+      - name: detailEntry
+      - name: donorId
+      - name: donorName
+      - name: frequency
+      - name: giveDate
+      - name: isRecurring
+      - name: platformId
+      - name: platformLegacyId
+      - name: platformName
+      - name: recipientId
+      - name: recipientLegacyId
+      - name: recipientName
+      - name: splitAmount
+      - name: splitTaxDeductible
+      - name: splitType
+      - name: splitUnit
+      - name: startDate
+      - name: status
+      - name: taxDeductible
+      - name: unit
+
+  - kind: Give
+    properties:
+      - name: isDeleted
+      - name: status
+      - name: amount
+      - name: dateCreated
+      - name: detailEntry
+      - name: donorId
+      - name: donorName
+      - name: frequency
+      - name: giveDate
+      - name: isRecurring
+      - name: platformId
+      - name: platformLegacyId
+      - name: platformName
+      - name: recipientId
+      - name: recipientLegacyId
+      - name: recipientName
+      - name: splitAmount
+      - name: splitTaxDeductible
+      - name: splitType
+      - name: splitUnit
+      - name: startDate
+      - name: taxDeductible
+      - name: unit
+
+  - kind: Give
+    properties:
+      - name: isDeleted
+      - name: status
+        direction: desc
+      - name: amount
+      - name: dateCreated
+      - name: detailEntry
+      - name: donorId
+      - name: donorName
+      - name: frequency
+      - name: giveDate
+      - name: isRecurring
+      - name: platformId
+      - name: platformLegacyId
+      - name: platformName
+      - name: recipientId
+      - name: recipientLegacyId
+      - name: recipientName
+      - name: splitAmount
+      - name: splitTaxDeductible
+      - name: splitType
+      - name: splitUnit
+      - name: startDate
+      - name: taxDeductible
+      - name: unit
+
+  - kind: Give
+    properties:
+      - name: isDeleted
+      - name: taxDeductible
+      - name: amount
+      - name: dateCreated
+      - name: detailEntry
+      - name: donorId
+      - name: donorName
+      - name: frequency
+      - name: giveDate
+      - name: isRecurring
+      - name: platformId
+      - name: platformLegacyId
+      - name: platformName
+      - name: recipientId
+      - name: recipientLegacyId
+      - name: recipientName
+      - name: splitAmount
+      - name: splitTaxDeductible
+      - name: splitType
+      - name: splitUnit
+      - name: startDate
+      - name: status
+      - name: unit
+
+  - kind: Give
+    properties:
+      - name: isDeleted
+      - name: taxDeductible
+        direction: desc
+      - name: amount
+      - name: dateCreated
+      - name: detailEntry
+      - name: donorId
+      - name: donorName
+      - name: frequency
+      - name: giveDate
+      - name: isRecurring
+      - name: platformId
+      - name: platformLegacyId
+      - name: platformName
+      - name: recipientId
+      - name: recipientLegacyId
+      - name: recipientName
+      - name: splitAmount
+      - name: splitTaxDeductible
+      - name: splitType
+      - name: splitUnit
+      - name: startDate
+      - name: status
+      - name: unit
+
+  - kind: Give
+    properties:
+      - name: isDeleted
+      - name: amount
+      - name: dateCreated
+      - name: detailEntry
+      - name: donorId
+      - name: donorName
+      - name: frequency
+      - name: giveDate
+      - name: isRecurring
+      - name: platformId
+      - name: platformLegacyId
+      - name: platformName
+      - name: recipientId
+      - name: recipientLegacyId
+      - name: recipientName
+      - name: splitAmount
+      - name: splitTaxDeductible
+      - name: splitType
+      - name: splitUnit
+      - name: startDate
+      - name: status
+      - name: taxDeductible
+      - name: unit
+
+  - kind: Give
+    properties:
+      - name: isDeleted
+      - name: amount
+        direction: desc
+      - name: dateCreated
+      - name: detailEntry
+      - name: donorId
+      - name: donorName
+      - name: frequency
+      - name: giveDate
+      - name: isRecurring
+      - name: platformId
+      - name: platformLegacyId
+      - name: platformName
+      - name: recipientId
+      - name: recipientLegacyId
+      - name: recipientName
+      - name: splitAmount
+      - name: splitTaxDeductible
+      - name: splitType
+      - name: splitUnit
+      - name: startDate
+      - name: status
+      - name: taxDeductible
+      - name: unit
+
+  - kind: Give
+    properties:
+      - name: isDeleted
+      - name: platformName
+      - name: amount
+      - name: dateCreated
+      - name: detailEntry
+      - name: donorId
+      - name: donorName
+      - name: frequency
+      - name: giveDate
+      - name: isRecurring
+      - name: platformId
+      - name: platformLegacyId
+      - name: recipientId
+      - name: recipientLegacyId
+      - name: recipientName
+      - name: splitAmount
+      - name: splitTaxDeductible
+      - name: splitType
+      - name: splitUnit
+      - name: startDate
+      - name: status
+      - name: taxDeductible
+      - name: unit
+
+  - kind: Give
+    properties:
+      - name: isDeleted
+      - name: platformName
+        direction: desc
+      - name: amount
+      - name: dateCreated
+      - name: detailEntry
+      - name: donorId
+      - name: donorName
+      - name: frequency
+      - name: giveDate
+      - name: isRecurring
+      - name: platformId
+      - name: platformLegacyId
+      - name: recipientId
+      - name: recipientLegacyId
+      - name: recipientName
+      - name: splitAmount
+      - name: splitTaxDeductible
+      - name: splitType
+      - name: splitUnit
+      - name: startDate
+      - name: status
+      - name: taxDeductible
+      - name: unit
+
+  - kind: Give
+    properties:
+      - name: isDeleted
+      - name: recipientName
+      - name: amount
+      - name: dateCreated
+      - name: detailEntry
+      - name: donorId
+      - name: donorName
+      - name: frequency
+      - name: giveDate
+      - name: isRecurring
+      - name: platformId
+      - name: platformLegacyId
+      - name: platformName
+      - name: recipientId
+      - name: recipientLegacyId
+      - name: splitAmount
+      - name: splitTaxDeductible
+      - name: splitType
+      - name: splitUnit
+      - name: startDate
+      - name: status
+      - name: taxDeductible
+      - name: unit
+
+  - kind: Give
+    properties:
+      - name: isDeleted
+      - name: recipientName
+        direction: desc
+      - name: amount
+      - name: dateCreated
+      - name: detailEntry
+      - name: donorId
+      - name: donorName
+      - name: frequency
+      - name: giveDate
+      - name: isRecurring
+      - name: platformId
+      - name: platformLegacyId
+      - name: platformName
+      - name: recipientId
+      - name: recipientLegacyId
+      - name: splitAmount
+      - name: splitTaxDeductible
+      - name: splitType
+      - name: splitUnit
+      - name: startDate
+      - name: status
+      - name: taxDeductible
+      - name: unit
+
+  - kind: Give
+    properties:
+      - name: isDeleted
+      - name: dateCreated
+      - name: amount
+      - name: detailEntry
+      - name: donorId
+      - name: donorName
+      - name: frequency
+      - name: giveDate
+      - name: isRecurring
+      - name: platformId
+      - name: platformLegacyId
+      - name: platformName
+      - name: recipientId
+      - name: recipientLegacyId
+      - name: recipientName
+      - name: splitAmount
+      - name: splitTaxDeductible
+      - name: splitType
+      - name: splitUnit
+      - name: startDate
+      - name: status
+      - name: taxDeductible
+      - name: unit
+
+  - kind: Give
+    properties:
+      - name: isDeleted
+      - name: donorName
+      - name: amount
+      - name: dateCreated
+      - name: detailEntry
+      - name: donorId
+      - name: frequency
+      - name: giveDate
+      - name: isRecurring
+      - name: platformId
+      - name: platformLegacyId
+      - name: platformName
+      - name: recipientId
+      - name: recipientLegacyId
+      - name: recipientName
+      - name: splitAmount
+      - name: splitTaxDeductible
+      - name: splitType
+      - name: splitUnit
+      - name: startDate
+      - name: status
+      - name: taxDeductible
+      - name: unit
+
+  - kind: Give
+    properties:
+      - name: isDeleted
+      - name: donorName
+        direction: desc
+      - name: amount
+      - name: dateCreated
+      - name: detailEntry
+      - name: donorId
+      - name: frequency
+      - name: giveDate
+      - name: isRecurring
+      - name: platformId
+      - name: platformLegacyId
+      - name: platformName
+      - name: recipientId
+      - name: recipientLegacyId
+      - name: recipientName
+      - name: splitAmount
+      - name: splitTaxDeductible
+      - name: splitType
+      - name: splitUnit
+      - name: startDate
+      - name: status
+      - name: taxDeductible
+      - name: unit
+
+  - kind: Give
+    properties:
+      - name: donorId
+      - name: isDeleted
+      - name: status
+      - name: dateCreated
+        direction: desc
+      - name: amount
+      - name: detailEntry
+      - name: donorName
+      - name: frequency
+      - name: giveDate
+      - name: isRecurring
+      - name: platformId
+      - name: platformLegacyId
+      - name: platformName
+      - name: recipientId
+      - name: recipientLegacyId
+      - name: recipientName
+      - name: splitAmount
+      - name: splitTaxDeductible
+      - name: splitType
+      - name: splitUnit
+      - name: startDate
+      - name: taxDeductible
+      - name: unit
+
+  - kind: Image
+    properties:
+      - name: isDeleted
+      - name: ownerId
+      - name: ownerType
+      - name: dateCreated
+        direction: desc
+
+  - kind: Give
+    properties:
+      - name: donorId
+      - name: isDeleted
+      - name: giveDate
+      - name: amount
+
+  - kind: Give
+    properties:
+      - name: isDeleted
+      - name: recipientId
+      - name: status
+      - name: giveDate
+      - name: amount
+      - name: dateCreated
+      - name: detailEntry
+      - name: donorId
+      - name: donorName
+      - name: frequency
+      - name: isRecurring
+      - name: platformId
+      - name: platformLegacyId
+      - name: platformName
+      - name: recipientLegacyId
+      - name: recipientName
+      - name: splitAmount
+      - name: splitTaxDeductible
+      - name: splitType
+      - name: splitUnit
+      - name: startDate
+      - name: taxDeductible
+      - name: unit
+
+  - kind: Give
+    properties:
+      - name: isDeleted
+      - name: recipientId
+      - name: status
+      - name: giveDate
+      - name: amount
+      - name: dateCreated
+      - name: detailEntry
+      - name: donorName
+      - name: frequency
+      - name: isRecurring
+      - name: platformLegacyId
+      - name: platformName
+      - name: recipientLegacyId
+      - name: recipientName
+      - name: splitAmount
+      - name: splitTaxDeductible
+      - name: splitType
+      - name: splitUnit
+      - name: startDate
+      - name: unit
+
+  - kind: Give
+    properties:
+      - name: isDeleted
+      - name: status
+      - name: dateCreated
+      - name: amount
+      - name: detailEntry
+      - name: donorId
+      - name: donorName
+      - name: frequency
+      - name: giveDate
+      - name: isRecurring
+      - name: platformId
+      - name: platformLegacyId
+      - name: platformName
+      - name: recipientId
+      - name: recipientLegacyId
+      - name: recipientName
+      - name: splitAmount
+      - name: splitTaxDeductible
+      - name: splitType
+      - name: splitUnit
+      - name: startDate
+      - name: taxDeductible
+      - name: unit
+
+  - kind: RecipientStat
+    properties:
+      - name: isDeleted
+      - name: recipientId
+      - name: year
+
+  - kind: Give
+    properties:
+      - name: donorId
+      - name: isDeleted
+      - name: status
+      - name: giveDate
+        direction: desc
+
+  - kind: Give
+    properties:
+      - name: donorId
+      - name: isDeleted
+      - name: status
+      - name: giveDate
+        direction: desc
